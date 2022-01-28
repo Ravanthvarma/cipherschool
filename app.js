@@ -72,7 +72,7 @@ let timerStatus=false;
       document.getElementById("min").innerHTML=stringMin;
       document.getElementById("hour").innerHTML=stringHour;
                                   
-      setInterval("stopwatch()",1000)
+      setInterval("stopwatch()",100)
     }
 
 }
